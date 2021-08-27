@@ -1,0 +1,27 @@
+html, body {
+    background-color: #c7c6c6;
+    scroll-behavior: smooth;
+    height: 110vh;
+}
+
+#top {
+    text-align: right;
+    margin-right: 50px
+}
+
+.float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    filter: drop-shadow(0 0 0.5em rgb(39, 39, 39));
+    transition: all .3s ease-in-out
+}
+
+.float-btn:hover {
+    transform: translateY(-5px)
+}

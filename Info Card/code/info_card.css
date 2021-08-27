@@ -1,0 +1,33 @@
+body, html {
+    height: 100vh;
+    background-color: #FFDDD2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.text-div {
+    margin: 10px 0;
+}
+
+.text-heading {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.text {
+    font-weight: 300;
+}
+
+
